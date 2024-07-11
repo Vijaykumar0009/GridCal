@@ -36,7 +36,7 @@ The GridCal project is divided in three packages:
 
 To install everything, you only need to install the GridCal package and the others will beinstalled as dependencies.
 
-<img height="200" src="doc/rst_source/figures/Packages.png"/>
+<img height="200" src="https://github.com/SanPen/GridCal/blob/master/doc/rst_source/figures/Packages.png"/>
 
 ### Standalone setup
 
@@ -165,7 +165,7 @@ description of the theory, the models and the objects.
 
 All simulations in GridCal are handled by the simulation drivers. The structure is as follows: 
 
-<img height="250" src="doc/rst_source/figures/DataModelSimulation.png"/>
+<img height="250" src="https://github.com/SanPen/GridCal/blob/master/doc/rst_source/figures/DataModelSimulation.png"/>
 
 Any driver is fed with the data model (`MultiCircuit` object), the respective driver options, and often another 
 object relative to specific inputs for that driver. The driver is run, storing the driver results object. 
@@ -190,7 +190,7 @@ A snapshot or any point of the time series, may be compiled to a `NumericalCircu
 numerical arrays and matrices of a time step, ready for the numerical methods. 
 For those simulations that require many time steps, a collection of `NumericalCircuit` is compiled and used.
 
-<img height="280" src="doc/rst_source/figures/DataModel.png"/>
+<img height="280" src="https://github.com/SanPen/GridCal/blob/master/doc/rst_source/figures/DataModel.png"/>
 
 It may seem that this extra step is redundant. However the compilation step is composed by mere copy operations, 
 which are fast. This steps benefits greatly the efficiency of the numerical calculations since the arrays are 
